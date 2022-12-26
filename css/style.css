@@ -1,0 +1,194 @@
+
+body {
+    background-color: #ffffff;
+}
+
+nav {
+    background-color: white;
+}
+
+a {
+    text-decoration: none; 
+    color: #2D033B;
+}
+
+a:hover {
+    color: #810CA8;
+    transition: 0.5s ease all;
+}
+
+
+
+.btn-outline-ungu {
+    background-color: #ffffff;
+    color: #2D033B;
+    border: solid 1px #2D033B;
+}
+
+.btn-outline-ungu:hover {
+    color: #fff;
+    background-color: #2D033B;
+    border: solid 1px #2D033B;
+    transition: all 0.5s ease;
+}
+
+.btn-ungu {
+    background-color: #2D033B;
+    color: #fff;
+}
+
+.btn-ungu:hover {
+    background-color: #810CA8;
+    color: #fff;
+    box-shadow: 0 0 5px 0 #2D033B;
+    transition: all 0.5s ease;
+}
+
+.btn-merah {
+    background-color: #bb1c1c;
+    color: #fff;
+}
+
+.btn-merah:hover {
+    background-color: #a01616;
+    color: #fff;
+    box-shadow: 0 0 5px 0 #bb1c1c;
+    transition: all 0.5s ease;
+}
+
+
+.btn-outline-ungu {
+    color: #2D033B;
+    background-color: transparent;
+    background-image: none;
+    border-color: #2D033B;
+}
+
+.btn-outline-ungu:hover {
+    color: #fff;
+    background-color: #2D033B;
+    border-color: #2D033B;
+    transition: 0.5s ease all;
+}
+
+/* INDEX, LOGIN, REGISTER */
+
+.hero {
+    margin-top: 100px;
+}
+
+.carousel-item img {
+    margin-top: 20px;
+    height: 250px;
+} 
+
+/* END INDEX, LOGIN, REGISTER */
+
+/* HALAMAN DASHBOARD */
+
+/* halaman dashboard petugas */
+.wrapper .sidebar{
+    width: 280px;
+    height: 97vh;
+    margin: 12px 8px 20px 8px; /* top right bottom left */
+    background: #810CA8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    padding: 20px 0;
+    box-shadow: 0 0 5px 0 #00000080;
+    
+}
+
+.wrapper .sidebar .profile{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.wrapper .sidebar .profile h4, .wrapper .sidebar .profile h5, .wrapper .sidebar .profile  {
+    color: #ffffff;
+    margin: 10px 0 5px;
+}
+
+.sidebar hr {
+    color: #fff;
+}
+
+.wrapper .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.wrapper .sidebar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.wrapper .sidebar .logout_item {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.wrapper .sidebar ul li a:hover {
+    background: #fff;
+    color: #810CA8;
+    border-right: 6px solid #790252;
+    transition: all 1s ease;
+}
+
+.sidecontent {
+    height: 96vh;
+    padding: 20px;
+    margin: 12px 8px 20px 280px; 
+}
+
+.pagging a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: solid 1px #790252;
+    color: #790252;
+    border-radius: 10px;
+}
+
+.pagging a:hover {
+    border: solid 1px #5de089;
+    background: #810CA8;
+    color: #fff;
+    transition: all 1s ease;
+}
+
+.indikator-halaman {
+    margin: 10px 0;
+    color: #790252;
+}
+
+.card-info {
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 0 5px 0 #00000057;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card-info:hover {
+    color: #810CA8;
+    box-shadow: 0 0 5px 0 #000000a2;
+    transition: all 0.3s ease;
+}
+
+.card-info .card-body img {
+    width: 50%;
+    float: right;
+}
+/* END HALAMAN DASHBOARD */
